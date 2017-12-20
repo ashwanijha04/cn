@@ -38,7 +38,7 @@ void printPath(int parent[], int j)
 
 // A utility function to print the constructed distance
 // array
-int printSolution(int dist[], int n, int parent[])
+void printSolution(int dist[], int n, int parent[])
 {
     int src = 0;
     printf("Vertex\t  Distance\tPath");
